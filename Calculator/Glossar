@@ -1,0 +1,13 @@
+Pack: Schmeißt den Wert einfach rein, es bleibt auf seiner Position im Verhältnis zum Fenster
+Grid: Man kann die Position durch row und column bestimmen, es bleibt auf einer Stelle abgesehen davon ob man das Fenster verändert oder nicht
+Label(root, text="Hello World!"): Einfacher Text
+myLabel1.grid(row=0, column=0): Text Anzeigen
+Button(root, text="Click Me!", state=DISABLED): Einfacher Button
+state=DISABLED: Man kann dann den Button nicht bedienen
+padx: breite
+pady: höhe
+fg: fordergrund Farbe
+bg: hintergrund Farbe
+borderwidth: Die dicke des Randes um ein Textfeld herum
+width: Textfeld breite
+Entry: Input
